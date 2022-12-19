@@ -47,5 +47,5 @@
   "devDependencies": {
     "@babel/eslint-parser": "^7.5.4"
   },
-  "proxy" : "https://azbst7f895.execute-api.ap-northeast-2.amazonaws.com/dev"
+  "proxy": "https://azbst7f895.execute-api.ap-northeast-2.amazonaws.com/dev"
 }
