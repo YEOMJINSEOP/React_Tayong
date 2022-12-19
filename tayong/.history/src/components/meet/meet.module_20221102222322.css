@@ -1,0 +1,132 @@
+@import '../../App.module.css';
+@import '../list/meetList.module.css';
+ *{
+  font-family: var(--font-famiy-pretendard-regular);
+ }
+.meet{
+  width: 288px;
+  height: 180px;
+  background-color: var(--color-white);
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 1rem;
+}
+
+.infoImage{
+  width: 100%;
+  height: 4rem;
+  background-color: lightyellow;
+  border-radius: 1rem 1rem 0 0;
+}
+
+.infoLocation{
+  width: 100%;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.infoDeparture, .infoArrival{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: 97px;
+  height: 17px;
+
+  font-family: var(--font-famiy-pretendard-regular);
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+
+  margin-top: 15px;
+  padding: 0 px;
+  
+}
+
+.infoDeparture p, .infoArrival p{
+  width: 30px;
+  height: 14px;
+
+  text-align: center;
+  margin: 5px;
+  font-family: var(--font-famiy-pretendard-regular);
+  font-weight: 300;
+  font-size: 10px;
+  color: var(--color-orange);
+
+  background: #FFFFFF;
+  box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.25);
+  border-radius: 2px;
+
+}
+
+
+.arrow{
+  position: relative;
+  margin: 0 0.5rem;
+  top: 1.2rem;
+  width: 14px;
+  height: 14px;
+  color: var(--color-orange);
+}
+
+.infoSet{
+  height: 2.5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding-right:0.5rem;
+}
+
+.infoSet p{
+  font-size: var(--font-micro);
+  box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.25);
+  border-radius: 2px;
+  padding: 0.2rem;
+  margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
+  color: var(--color-orange);
+}
+
+.infoSet div{
+  text-align: center;
+  font-size: var(--font-micro);
+  font-weight: var(--weight-regular);
+  text-align: center;
+}
+
+.infoRecruitment span{
+  width: 5rem;
+}
+
+/* @media screen and (max-width: 1440px){
+
+
+  .meet{
+    width: 240px;
+    height: 170px;
+  }
+
+
+}
+
+@media screen and (max-width: 1200px){
+
+  .meet{
+    width: 240px;
+    height: 170px;
+  }
+
+
+}
+
+@media screen and (max-width: 1024px){
+  
+}
+
+@media screen and (max-width: 768px){
+
+} */

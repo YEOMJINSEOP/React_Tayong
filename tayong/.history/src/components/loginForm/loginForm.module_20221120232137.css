@@ -1,0 +1,12 @@
+.logInContainer{
+  background-color: orange;
+}
+
+.logo{
+  font-family: 'LeferiPoint-BlackA';
+  font-size: var(--font-medium);
+  font-weight: bold;
+  color: var(--color-orange);
+  padding-left: 10vw; 
+  cursor: pointer;
+}

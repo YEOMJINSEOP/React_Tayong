@@ -1,0 +1,57 @@
+@import '../../App.module.css';
+
+*{
+  font-family: var(  --font-famiy-pretendard-regular);
+}
+
+.departure{
+  margin: 0 3rem;
+}
+
+.info{
+  font-size: 20px;
+  color: var(--color-black);
+  text-align: center;
+  padding-bottom: 0.5rem;
+}
+
+.ocos{
+  font-family: var(--font-family-leferipoint-base);
+  font-weight: var(--weight-leferi-base-bold);
+}
+
+.info span{
+  font-size: 26px;
+  font-weight: var(--weight-pretendard-medium);
+}
+
+.inputBox{
+  width: 11rem;
+  height: 3rem;
+  padding: 0 0.5rem;
+
+  background-color: var(--color-white);
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 1rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input{
+  border: none;
+  outline: none;
+  font-weight: var(--weight-pretendard-light);
+  font-size: 18px;
+}
+
+.searchIcon{
+  color: var(--color-orange);
+}
+
+span{
+  font-size: var(--font-regular);
+  font-weight: var(--weight-bold);
+  color: var(--color-orange);
+}

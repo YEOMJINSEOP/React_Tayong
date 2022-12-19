@@ -1,0 +1,20 @@
+@import '../../App.module.css';
+
+.meetList{
+  position: fixed;
+
+  width: 100%;
+  margin: auto;
+  top: 35%;
+
+}
+
+.list{
+  list-style: none;
+}
+
+.meet{
+  width: 300px;
+  background-color: green;
+  border: 1px solid var(--color-light-grey);
+}

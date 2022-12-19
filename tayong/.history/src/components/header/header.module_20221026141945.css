@@ -1,0 +1,44 @@
+*{
+  margin: 0;
+}
+
+button{
+  border: none;
+  background-color: transparent;
+  width: 4rem;
+  font-size: 0.7rem;
+}
+
+.navbar{
+  width: 100%;
+  position: fixed;
+  padding: 0.5rem;
+  background-color: #ffffff;
+  border-bottom: 1px solid lightgrey;
+  
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo{
+  font-size: 30px;
+  font-weight: bold;
+  color: #FF9C55;
+  padding-left: 8rem;
+  margin-bottom: 0.2rem;
+  cursor: pointer;
+}
+
+.navbarBtn{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-right: 8rem;
+}
+
+.btn{
+  margin-right: 1.2rem;
+  height: 1.2rem;
+  padding: 0;
+  cursor: pointer;
+}

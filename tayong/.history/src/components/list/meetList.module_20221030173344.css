@@ -1,0 +1,101 @@
+@import '../../App.module.css';
+
+.meetList{
+  position: fixed;
+  top: 3.5rem;
+  bottom: 3.5rem;
+
+  display: flex;
+  justify-content: center;
+
+  width: 100%;
+
+
+
+  margin: auto;
+  overflow-y: auto;
+
+}
+
+.list{
+  overflow-y:scroll;
+  width: 100%;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+}
+
+.meet{
+  width: 21%;
+  height: 10.5rem;
+  background-color: var(--color-white);
+  border: 1px solid var(--color-light-grey);
+  margin: 1rem 1rem;
+}
+
+.infoImage{
+  width: 100%;
+  height: 4rem;
+  background-color: lightyellow;
+}
+
+.infoLocation{
+  height: 4rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.infoLocation p{
+  padding-left:0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-size: var(--font-micro);
+  font-weight: var(--weight-bold);
+}
+
+.infoLocation span{
+  width: 1.8rem;
+  font-size: var(--font-micro);
+  box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.25);
+  margin-bottom: 0.5rem;
+}
+
+.arrow{
+  padding-top: 0.2rem;
+  font-size: var(--font-small);
+  color: var(--color-orange);
+}
+
+.infoSet{
+  height: 2.5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.infoSet span{
+  font-size: var(--font-micro);
+  box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.25);
+  padding: 0.2rem;
+  margin-right: 0.3rem;
+  margin-bottom: 0.5rem;
+}
+
+.infoSet p{
+  text-align: center;
+  font-size: var(--font-micro);
+  font-weight: var(--weight-regular);
+  text-align: center;
+}
+
+.infoRecruitment span{
+  width: 5rem;
+}

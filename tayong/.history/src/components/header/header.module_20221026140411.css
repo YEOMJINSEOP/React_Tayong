@@ -1,0 +1,14 @@
+*{
+  margin: 0;
+}
+.navbar{
+  width: 100%;
+  background-color: #ffffff;
+  border-bottom: 1px solid lightgrey;
+}
+
+.logo{
+  font-size: 30px;
+  font-weight: bold;
+  color: #FF9C55;
+}

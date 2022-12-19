@@ -1,0 +1,21 @@
+@import '../../App.module.css';
+
+.footer{
+  width: 100%;
+  padding: 1rem;
+
+  position: fixed;
+  bottom: 0;
+
+  background-color: var(--color-orange);
+  color: var(--color-white);
+
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  font-size: var(--font-micro)
+}
+
+p{
+  padding: 0 1rem;
+}

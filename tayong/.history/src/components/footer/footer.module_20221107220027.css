@@ -1,0 +1,31 @@
+@import '../../App.module.css';
+
+.footer{
+  width: 100%;
+  height: 61px;
+
+  position: fixed;
+  bottom: 0;
+
+  background-color: var(--color-orange);
+  color: var(--color-white);
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: var(--font-micro)
+}
+
+p{
+  font-family: var(--font-famiy-pretendard-regular);
+  font-size: 13px;
+}
+
+.divider{
+  margin: 0 6px;
+}
+
+.contract:hover{
+  cursor: pointer;
+}

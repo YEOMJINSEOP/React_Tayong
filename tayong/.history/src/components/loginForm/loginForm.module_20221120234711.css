@@ -1,0 +1,22 @@
+.logInContainer{
+    position: absolute;
+    top: 12%;
+  
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  
+    background-color: lightblue;
+
+}
+
+.logo{
+  font-family: 'LeferiPoint-BlackA';
+  font-size: 50px;
+  font-weight: bold;
+  color: var(--color-orange);
+
+  cursor: pointer;
+}

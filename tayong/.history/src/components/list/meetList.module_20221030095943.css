@@ -1,0 +1,7 @@
+.meetList{
+  position: fixed;
+
+  width: 100%;
+  margin: auto;
+  top: 35%;
+}

@@ -1,0 +1,53 @@
+@import '../../App.module.css';
+
+.locationSelector{
+  position: fixed;
+
+  width: 100%;
+  margin: auto;
+  top: 35%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.location{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-bottom: 30px;
+}
+
+.departure, .arrival{
+  margin: 0 1rem;
+}
+
+input{
+  height: 40px;
+  border: var(--border-weight) solid var(--color-light-grey) ;
+  border-radius: 0.7rem;
+}
+
+.info{
+  font-size: var(--font-micro);
+  color: var(--color-black);
+  text-align: center;
+  padding-bottom: 0.5rem;
+}
+
+span{
+  font-size: var(--font-regular);
+  font-weight: var(--weight-bold);
+  color: var(--color-orange);
+}
+
+.submitBtn{
+  width: 8rem;
+  height: 2rem;
+  color: var(--color-white);
+  font-size: var(--font-micro);
+  font-weight: var(--weight-bold);
+  background-color: var(--color-orange);
+  border-radius: var(--border-radius) ;
+}

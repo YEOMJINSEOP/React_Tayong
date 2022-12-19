@@ -1,0 +1,11 @@
+*{
+  margin: 0;
+}
+.navbar{
+  width: 100%;
+  background-color: red;
+}
+
+.logo{
+  color: #FF9C55;
+}

@@ -1,0 +1,186 @@
+@import '../../App.module.css';
+
+.meetList{
+  top: 3.4rem;
+  bottom: 3.7rem;
+  /* background-color: yellow; */
+  position: absolute;
+
+  width: 100%;
+  overflow-y: scroll;
+
+  padding: 0;
+  margin: 0;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+label{
+  font-family: var(--font-family-pretendard-regular);
+  font-weight: var(--font-pretendard-medium);
+  font-size: 14px;
+
+  background-color: yellow;
+  padding-left: 20px;
+}
+
+
+.location{
+  position: absolute;
+  top: 8%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.locationDeparture, .locationArrival{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: var(--font-semi-small);
+  color: var(--color-orange);
+  font-weight: var(--weight-bold);
+  margin: 1rem;
+
+}
+
+
+.location input{
+  width: 152px;
+  height: 40px;
+  margin: 0.5rem;
+  padding: 0 0.5rem;
+
+  text-align: center;
+  background-color: var(--color-white);
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+  border: none;
+  border-radius: 0.5rem;
+
+  font-family: var(--font-family-pretendard-regular);
+  font-weight: var(--font-pretendard-light);
+  font-size: 14px;
+
+}
+
+.locationArrow{
+  position: absolute;
+  font-size: var(--font-semi-small);
+  color: var(--color-orange);
+  top: 55px;
+}
+
+.btn_create{
+  position: absolute;
+  top: 15%;
+  right: 10%;
+
+  width: 134px;
+  height: 40px;
+  border-radius: 8px;
+  background-color: var(--color-orange);
+
+  font-family: var(--font-family-pretendard-regular);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  
+  color: var(--color-white);
+}
+
+
+.list{
+  /* background-color: green; */
+  position :absolute;
+  width: 80vw;
+  top: 200px;
+  padding: 10px 0 0 0;
+  overflow-x: hidden;
+  /* margin: 0 10px; */
+  overflow-wrap:break-word;
+  overflow-y:scroll;
+  list-style: none;
+  
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+
+  justify-items: center;
+  align-items: center;
+  column-gap: 20px;
+  row-gap: 20px;
+}
+
+
+@media screen and (max-width: 1860px){
+
+  .list{
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+  
+    column-gap: 20px;
+    row-gap:  20px;
+  }
+/* 
+  .meet{
+    width: 240px;
+    height: 170px;
+  } */
+
+}
+
+
+@media screen and (max-width: 1520px){
+  
+  .list{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+  
+    column-gap: 20px;
+    row-gap:  20px;
+  }
+
+  /* .meet{
+    width: 240px;
+    height: 170px;
+  } */
+
+
+}
+
+@media screen and (max-width: 1024px){
+
+  .location{
+    position: fixed;
+    top: 100px;
+  }
+  
+  .list{
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+  
+    column-gap: 20px;
+    row-gap:  20px;
+  }
+
+  .btn_create{
+    position: fixed;
+    top: 200px;
+    right: 41.9%;
+  }
+
+}
+
+@media screen and (max-width: 768px){
+  
+  .list{
+    display: flex;
+    flex-direction: column;
+  }
+
+}

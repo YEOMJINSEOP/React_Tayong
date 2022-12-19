@@ -1,0 +1,5 @@
+@import '../../App.module.css';
+
+.locationSelector{
+  position: fixed;
+}

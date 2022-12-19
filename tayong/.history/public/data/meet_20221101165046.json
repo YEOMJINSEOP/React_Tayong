@@ -1,0 +1,31 @@
+[
+    {
+      "id": 1,
+      "departure": "디지털미디어시티",
+      "arrival": "한국항공대학교",
+      "recruitment": "2명/4명",
+      "remainingTime": "1시간 27분 남음"
+    },
+    {
+      "id": 2,
+      "departure": "디지털미디어시티",
+      "arrival": "한국항공대학교",
+      "recruitment": "2명/4명",
+      "remainingTime": "1시간 27분 남음"
+    },
+    {
+      "id": 3,
+      "departure": "행신역",
+      "arrival": "한국항공대학교",
+      "recruitment": "2명/4명",
+      "remainingTime": "1시간 27분 남음"
+    },
+    {
+      "id": 4,
+      "departure": "디지털미디어시티",
+      "arrival": "한국항공대학교",
+      "recruitment": "2명/4명",
+      "remainingTime": "1시간 27분 남음"
+    }
+  
+]

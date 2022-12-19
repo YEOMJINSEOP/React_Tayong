@@ -1,0 +1,91 @@
+@import '../../App.module.css';
+
+.locationSelector{
+  position: fixed;
+
+  width: 100%;
+  margin: auto;
+  top: 35%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.location{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.info{
+  font-size: 20px;
+  color: var(--color-black);
+  text-align: center;
+  padding-bottom: 0.5rem;
+}
+
+
+.info span{
+  font-size: 26px;
+  font-weight: var(--weight-pretendard-medium);
+  color: var(--color-orange);
+}
+
+.ocos{
+  font-family: var(--font-family-leferibase-bold);
+}
+
+
+.arrow{
+
+  margin-top: 80px;
+  display: flex;
+  align-items:center;
+  font-size: 30px;
+  color: var(--color-orange);
+}
+
+
+.submitBtn{
+  
+  position: fixed;
+  top: 62%;
+  outline: none;
+  width: 201px;
+  height: 51px;
+
+  font-family: var(--font-family-pretendard-regular);
+  font-weight: var(--weight-pretendard-semiBold);
+  font-size: 16px;
+  color: var(--color-white);
+
+  background-color: var(--color-orange);
+  border-radius: var(--border-radius);
+}
+
+
+@media screen and (max-width: 768px){
+  
+.location{
+  position: fixed;
+  top: 15%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.arrow{
+  margin: 20px 0;
+  padding: 0;
+}
+
+.submitBtn {
+  position: fixed;
+  top: 75%;
+}
+}
+

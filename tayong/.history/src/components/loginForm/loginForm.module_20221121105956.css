@@ -1,0 +1,99 @@
+@import '../../App.module.css';
+
+.logInContainer{
+    position: absolute;
+    top: 22%;
+  
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.logo{
+  font-family: 'LeferiPoint-BlackA';
+  font-size: 50px;
+  font-weight: bold;
+  color: var(--color-orange);
+
+  cursor: pointer;
+}
+
+.email {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 40px;
+}
+
+.email input{
+  width: 390px;
+  height: 48px;
+
+  border: 1px solid #CCCCCC;
+  border-radius: 6px;
+
+  margin-top: 10px;
+  padding-left: 15px;
+  text-align: left;
+}
+
+.password{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 30px;
+}
+
+.password input{
+  width: 390px;
+  height: 48px;
+
+  border: 1px solid #CCCCCC;
+  border-radius: 6px;
+
+  margin-top: 10px;
+}
+
+label {
+  font-family: var('Pretendard-Regular');
+  font-weight: 600;
+  color: var(--color-black);
+  font-size: 18px;
+  margin: 0;
+  width: 100%;
+}
+
+.submitBtn {
+  width: 390px;
+  height: 52px;
+
+  margin-top: 36px;
+
+  background: #FF9C55;
+  border-radius: 6px;
+
+  font-family: var('Pretendard-Regular');
+  color: var(--color-white);
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.extraFunc {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  font-family: var('Pretendard-Regular');
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+  text-decoration-line: underline;
+  color: var(--color-black);
+
+  width: 390px;
+  margin-top: 12px;
+}

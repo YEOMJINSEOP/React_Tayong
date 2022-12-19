@@ -1,0 +1,46 @@
+@import '../../App.module.css';
+
+.meetList{
+  position: fixed;
+
+  width: 100%;
+  margin: auto;
+  top: 35%;
+
+}
+
+.list{
+  list-style: none;
+}
+
+.meet{
+  width: 16rem;
+  background-color: var(--color-white);
+  border: 1px solid var(--color-light-grey);
+}
+
+.infoLocation{
+  display: flex;
+  flex-direction: row;
+}
+
+.infoLocation p{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-size: var(--font-small);
+  font-weight: var(--weight-semi-bold);
+}
+
+.infoLocation span{
+  font-size: var(--font-micro);
+}
+
+.infoSet{
+  display: flex;
+  flex-direction: row;
+}
+
+.infoSet span{
+  font-size: var(--font-micro);
+}

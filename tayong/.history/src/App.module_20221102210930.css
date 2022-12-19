@@ -1,0 +1,93 @@
+:root{
+
+  /* color */
+  --color-orange: #FF9C55;
+  --color-light-grey: #e0e0e0;
+  --color-white: #ffffff;
+  --color-black: #201F1E;
+
+
+  /* font family */
+  --font-famiy-pretendard-regular: 'Pretendard-Regular';
+  --font-family-leferipoint-black: 'LeferiPoint-BlackA';
+  --font-family-leferipoint-regular: 'LeferiBaseType-RegularA';
+  --font-family-leferipoint-bold:  'LeferiBaseType-BoldA';
+  /* font size */
+  --font-large: 48px;
+  --font-medium: 28px;
+  --font-regular: 18px;
+  --font-small: 14px;
+  --font-semi-small: 12px;
+  --font-micro: 10px;
+
+  /* font weight */
+  --weight-pretendard-thin:  100;
+  --weight-pretendard-extraLight:  200;
+  --weight-pretendard-light: 300;
+  --weight-pretendard-regular: 400;
+  --weight-pretendard-medium:  500;
+  --weight-pretendard-semiBold:  600;
+  --weight-pretendard-bold:  700;
+  --weight-pretendard-extraBold: 800;
+  --weight-pretendard-black: 900;
+
+  --weight-leferi-point-white: 200;
+  --weight-leferi-point-black: 700;
+
+  --weight-leferi-base-regular: 400;
+  --weight-leferi-base-bold: 700;
+
+ /* border weight */
+ --border-weight: 1.5px;
+
+ /* border radius */
+ --border-radius: 0.7rem;
+}
+
+/* universal setting*/
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'LeferiPoint-BlackA';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/LeferiPoint-BlackA.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+/* font */
+@font-face {
+  font-family: 'LeferiBaseType-BoldA';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/LeferiBaseType-BoldA.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'LeferiBaseType-RegularA';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/LeferiBaseType-RegularA.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Pretendard-Regular';
+  src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+input:focus{
+  outline: none;
+}
+
+button{
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+}

@@ -1,0 +1,10 @@
+.form{
+  position: absolute;
+  width: 342px;
+  height: 49px;
+  left: 608px;
+  top: 362px;
+
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.25);
+  background-color: lightcoral;
+}

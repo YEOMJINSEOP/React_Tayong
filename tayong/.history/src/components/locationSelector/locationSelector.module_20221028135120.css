@@ -1,0 +1,13 @@
+@import '../../App.module.css';
+
+.locationSelector{
+  position: fixed;
+
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  top: 40%;
+
+  display: flex;
+  
+}

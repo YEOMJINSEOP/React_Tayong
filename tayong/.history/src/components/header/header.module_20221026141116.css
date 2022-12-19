@@ -1,0 +1,32 @@
+*{
+  margin: 0;
+}
+
+button{
+  border: none;
+  background-color: transparent;
+  border: 1px solid black;
+  width: 4rem;
+  height: ;
+  font-size: 0.7rem;
+}
+.navbar{
+  width: 100%;
+  background-color: #ffffff;
+  border-bottom: 1px solid lightgrey;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo{
+  font-size: 30px;
+  font-weight: bold;
+  color: #FF9C55;
+}
+
+.navbarBtn{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}

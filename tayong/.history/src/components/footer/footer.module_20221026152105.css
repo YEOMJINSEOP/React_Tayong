@@ -1,0 +1,7 @@
+@import '../../App.module.css';
+
+.footer{
+  width: 100%;
+  position: fixed;
+  background-color: var(--color-orange);
+}

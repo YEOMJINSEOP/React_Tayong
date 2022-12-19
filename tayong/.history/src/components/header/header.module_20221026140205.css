@@ -1,0 +1,12 @@
+*{
+  margin: 0;
+}
+.navbar{
+  width: 100%;
+  background-color: red;
+  border-bottom: 1px solid grey;
+}
+
+.logo{
+  color: #FF9C55;
+}

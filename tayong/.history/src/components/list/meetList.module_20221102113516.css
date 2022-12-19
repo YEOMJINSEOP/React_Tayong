@@ -1,0 +1,198 @@
+@import '../../App.module.css';
+
+.meetList{
+  top: 3.4rem;
+
+
+  position: absolute;
+  background-color: yellow;
+
+  width: 100%;
+  overflow-y: auto;
+
+  padding: 0;
+  margin: 0;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.location{
+  position: absolute;
+  top: 50px;
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.locationDeparture, .locationArrival{
+  display: flex;
+  flex-direction: column;
+  font-size: var(--font-semi-small);
+  color: var(--color-orange);
+  font-weight: var(--weight-bold);
+  margin: 1rem;
+}
+
+
+.location input{
+  width: 11rem;
+  height: 2rem;
+  margin: 0.5rem;
+  padding: 0 0.5rem;
+
+  text-align: center;
+  background-color: var(--color-white);
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+  border: none;
+  border-radius: 0.5rem;
+
+  font-size: var(--font-semi-small);
+  font-weight: var(--weight-regular);
+
+}
+
+.locationArrow{
+  position: absolute;
+  font-size: var(--font-semi-small);
+  color: var(--color-orange);
+  top: 45px;
+}
+
+.listContainer{
+  /* width: 100vw; */
+
+  height: 10px;
+  margin: 0 50px;
+  display: flex;
+  background-color: green;
+}
+
+.list{
+
+  position :relative;
+  top: 180px;
+  width: 100vw;
+  padding: 10px 0 0 0;
+  margin: 0 10px;
+  overflow-y:scroll;
+  list-style: none;
+
+  display: grid;
+  grid-template-columns: repeat(5, 288px);
+
+  justify-items: center;
+  align-items: center;
+  column-gap: 20px;
+  row-gap: 20px;
+}
+
+.meet{
+
+  width: 100%;
+  min-width: 240px;
+  height: 10.5rem;
+  background-color: var(--color-white);
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 1rem;
+  /* margin: 1rem 0; */
+}
+
+.infoImage{
+  width: 100%;
+  height: 4rem;
+  background-color: lightyellow;
+  border-radius: 1rem 1rem 0 0;
+}
+
+.infoLocation{
+  height: 4rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 0.5rem;
+  align-items: center;
+}
+
+.infoLocation p{
+  padding-left:0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 0 0.5rem;
+  font-size: var(--font-semi-small);
+  font-weight: var(--weight-bold);
+}
+
+.infoLocation span{
+  width: 1.8rem;
+  font-size: var(--font-micro);
+  box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.25);
+  border-radius: 2px;
+  margin-bottom: 0.5rem;
+}
+
+.arrow{
+  position: relative;
+  margin: 0 0.5rem;
+  top: 0.5rem;
+  font-size: var(--font-micro);
+  color: var(--color-orange);
+}
+
+.infoSet{
+  height: 2.5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding-right:0.5rem;
+}
+
+.infoSet span{
+  font-size: var(--font-micro);
+  box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.25);
+  border-radius: 2px;
+  padding: 0.2rem;
+  margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.infoSet p{
+  text-align: center;
+  font-size: var(--font-micro);
+  font-weight: var(--weight-regular);
+  text-align: center;
+}
+
+.infoRecruitment span{
+  width: 5rem;
+}
+
+
+@media screen and (max-width: 1024px){
+  
+  .list{
+    display: grid;
+    grid-template-columns: repeat(3, 240px);
+  
+    column-gap: 30px;
+    row-gap:  30px;
+  }
+
+}
+
+@media screen and (max-width: 768px){
+  
+  .list{
+    display: flex;
+    flex-direction: column;
+  }
+
+}

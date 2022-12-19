@@ -1,0 +1,49 @@
+@import '../../App.module.css';
+
+.locationSelector{
+  position: fixed;
+
+  width: 100%;
+  margin: auto;
+  top: 35%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.location{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.arrow{
+  display: flex;
+  align-items:center;
+  padding-top: 2.8rem;
+  font-size: var(--font-small);
+  color: var(--color-orange);
+}
+
+
+.submitBtn{
+  outline: none;
+  width: 201px;
+  height: 51px;
+
+  font-family: var(--font-family-pretendard-regular);
+  font-weight: var(--weight-pretendard-semiBold);
+  font-size: 16px;
+  color: var(--color-white);
+
+  background-color: var(--color-orange);
+  border-radius: var(--border-radius);
+}
+
+
+@media screen and (max-width: 768px){
+  
+
+}
